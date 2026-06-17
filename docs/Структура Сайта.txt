@@ -1,0 +1,81 @@
+проверка 
+
+loop.local/
+├── admin/                          # админ-панель
+│   ├── css/
+│   │   └── admin.css 
+│   ├── index.php 
+│   ├── login.php
+│   ├── logout.php 
+│   ├── products.php 
+│   ├── product-edit.php 
+│   ├── product-delete.php 
+│   ├── categories.php 
+│   ├── category-delete.php 
+│   ├── orders.php 
+│   ├── order-view.php 
+│   ├── users.php 
+│   ├── user-edit.php
+│   ├── user-delete.php  
+│   ├── user-reset-password.php 
+│   └── settings.php 
+│
+├── backend/                         # PHP логика (обработчики)
+│   ├── auth.php 
+│   ├── cart.php 
+│   ├── wishlist.php 
+│   ├── order.php 
+│   ├── check-promo.php
+│   ├── profile.php 
+│   ├── get_products.php 
+│   ├── import.php 
+│   └── config.php 
+│
+├── frontend/                         # интерфейс (CSS, JS, картинки)
+│   ├── css/
+│   │   └── styles.css 
+│   ├── js/
+│   │   ├── main.js 
+│   │   ├── cart.js 
+│   │   ├── catalog.js 
+│   │   ├── checkout.js 
+│   │   ├── login.js 
+│   │   ├── product.js 
+│   │   ├── profile.js 
+│   │   ├── wishlist.js 
+│   │   ├── pagination.js 
+│   │   ├── scroll-to-top.js 
+│   │   └── script.js 
+│   └── images/                       (все картинки)
+│       ├── IK.png
+│       ├── no-image.jpg
+│       ├── 1_SL.jpg
+│       ├── 2.png
+│       ├── 3_SL.png
+│       └── lzw1/ ...                  # папки с товарами
+│
+├── includes/                          # шаблоны
+│   ├── header.php 
+│   └── footer.php 
+│
+├── pages/                             # страницы сайта
+│   ├── home.php 
+│   ├── catalog.php 
+│   ├── product.php
+│   ├── cart.php 
+│   ├── checkout.php
+│   ├── order-success.php 
+│   ├── login.php
+│   ├── profile.php
+│   ├── wishlist.php
+│   ├── about.php
+│   ├── contacts.php
+│   ├── delivery.php
+│   ├── pp.php
+│   ├── ua.php
+│   └── 404.php
+│
+│
+├── .htaccess                                 
+├── index.php                          # роутер
+└── loop_eco.sql                       # дамп БД
