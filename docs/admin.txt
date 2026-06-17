@@ -1,0 +1,5 @@
+для базы данных (если был сброс)
+пароль = $2y$10$FViS/lzUqZNIMovzkLFe2eLXGO4qPR6RCjn/dA7lyI9jcGklN7oJa
+
+Логин = admin@loop.ru
+Пароль = admin123
